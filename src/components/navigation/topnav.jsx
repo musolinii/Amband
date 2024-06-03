@@ -1,4 +1,7 @@
 import { Link } from "react-router-dom";
+import RFIDdropdown from "./RFIDdropdown";
+import BigDatadropdown from "./BigDatadropdown";
+import Servicesdropdown from "./Servicesdropdown";
 
 
 const Navbar = () => {
@@ -11,29 +14,15 @@ const Navbar = () => {
           </div>
           </a>
           <div className="hidden md:flex space-x-4">
-            <ul className="list-none">
-              <li>
-                <Link to="home" className="text-black hover:text-blue-300">Home</Link>
-              </li>
-              <li>
-                <Link to="about-us" className="text-black hover:text-blue-300">About</Link>
-              </li>
-              <li>
-                <Link to="services" className="text-black hover:text-blue-300">Services</Link>
-              </li>
-              <li>
-                <Link to="communications-and-media" className="text-black hover:text-blue-300">Communications and Media</Link>
-              </li>
-              <li>
-                <Link to="contact-us" className="text-black hover:text-blue-300">Contact</Link>
-              </li>
-              <li>
-                <Link to="RFID-solutions" className="text-black hover:text-blue-300">RFID Solutions</Link>
-              </li>
-              <li>
-                <Link to="big-data" className="text-black hover:text-blue-300">Big Data</Link>
-              </li>
-            </ul>
+
+            <Link to="home" className="text-black hover:text-blue-300">Home</Link>
+            <Link to="about-us" className="text-black hover:text-blue-300">About Us</Link>
+            <Link to="services" className="text-black hover:text-blue-300"><Servicesdropdown/></Link>
+            <Link to="RFID-solutions" className="text-black hover:text-blue-300"><RFIDdropdown /></Link>
+            <Link to="communications-and-media" className="text-black hover:text-blue-300">Communications and Media</Link>
+            <Link to="big-data" className="text-black hover:text-blue-300"><BigDatadropdown /></Link>
+            <Link to="contact-us" className="text-black hover:text-blue-300">Contact Us</Link>
+            
           </div>
           <div className="md:hidden">
             <button className="text-black focus:outline-none">
