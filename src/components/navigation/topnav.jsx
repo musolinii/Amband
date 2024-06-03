@@ -2,15 +2,17 @@ import { Link } from "react-router-dom";
 import RFIDdropdown from "./RFIDdropdown";
 import BigDatadropdown from "./BigDatadropdown";
 import Servicesdropdown from "./Servicesdropdown";
-
+import Logo from "../../assets/amband.png";
 
 const Navbar = () => {
     return (
-      <nav className="bg-blue-500 p-4">
+      <nav className="bg-white p-4 h-[100px]">
         <div className="container mx-auto flex justify-between items-center">
           <a href="home" className="text-white text-2xl font-bold">
-          <div className="text-black text-lg font-bold">
-            MyWebsite
+          <div className="ml-[180px]">
+            <Link to= "/home">
+              <img src={Logo} alt="amband logo" className="w-[175px] h-[59px]"/>
+            </Link>
           </div>
           </a>
           <div className="hidden md:flex space-x-4">
