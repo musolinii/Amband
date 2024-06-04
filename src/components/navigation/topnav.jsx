@@ -6,10 +6,10 @@ import Logo from "../../assets/amband.png";
 
 const Navbar = () => {
     return (
-      <nav className="bg-white p-4 h-[100px]">
+      <nav className="bg-white p-4 h-[100px] text-sm/[14px]">
         <div className="container mx-auto flex justify-between items-center">
           <a href="home" className="text-white text-2xl font-bold">
-          <div className="ml-[180px]">
+          <div className="ml-[180px] mt-[8px]">
             <Link to= "/home">
               <img src={Logo} alt="amband logo" className="w-[175px] h-[59px]"/>
             </Link>
