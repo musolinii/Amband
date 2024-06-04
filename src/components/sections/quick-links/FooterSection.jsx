@@ -1,12 +1,12 @@
 
 const FooterSection = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+    <footer className="bg-slate-300 py-8 text-slate-600 h-[400px]">
+      <div className="container mx-[180px] px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed">
           <div>
             <h3 className="text-lg font-bold mb-4">About Us</h3>
-            <p className="text-sm">
+            <p >
             We are an innovative and dynamic information technology company that prides itself by offering bespoke and 
             <strong>“out of the box”</strong> IT related solutions to our clients. With Amband’s company philosophy of providing a large range of services and solutions at an affordable price, we should be your one and only port of call.
             <br />

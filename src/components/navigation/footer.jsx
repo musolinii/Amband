@@ -1,3 +1,4 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 
 const Footer = () => {
@@ -6,13 +7,14 @@ const Footer = () => {
     };
 
     return (
-        <footer className="bg-gray-800 text-white py-8">
-          <div className="text-gray-400">
+        <footer className="bg-slate-200 text-slate-600 py-8 grid">
+          <div className="text-gray-400 text-sm/[14px] ml-[180px]">
             &copy; 2024 MyWebsite. All rights reserved.
           </div>
 
-          <div>
-            <button onClick={handleReturnToTop}>Return to Top</button>
+          <div className='place-self-end bg-black rounded-full'>
+            <button onClick={handleReturnToTop}></button>
+            <FontAwesomeIcon icon="fa-solid fa-arrow-up" />
           </div>
     
       </footer>

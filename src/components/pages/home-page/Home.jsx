@@ -56,14 +56,14 @@ function Home() {
 
     </div>
 
-    <div className="w-full h-[377px] bg-slate-300 grid" >
-      <div className="self-center w-[1200px] h-[228px] ml-[200px] grid grid-cols-2 gap-x-0">
+    <div className="w-full h-[377px]  grid" >
+      <div className="self-center w-[1200px] h-[228px] ml-[200px] grid grid-cols-2 gap-y-0">
         <div className="w-[370px] h-[228px]">
         <img  src={mobile} alt={"Phone"}/>
         </div>
         <div className="w-[800px] h-[228px] ml-[20px]">
-          <h4 className='text-lg/[28px] font-bold'>OUR SERVICES</h4>
-          <p className="text-sm/[14px] leading-relaxed">We offer a wide range of services that will cater to your every need. From web development to mobile applications, we have you covered.</p>
+          <h4 className='text-lg/[28px] font-bold mb-[30px]'>MOBILE APP DEVELOPMENT</h4>
+          <p className="text-sm/[14px] leading-relaxed mr-[30px]">Leverage our mobile application development teams to develop novel apps, which can help you to scale-up your businesses.</p>
         </div>
 
       </div>
@@ -71,10 +71,11 @@ function Home() {
     </div>
 
     <div className="w-full h-[304px] bg-blue-900 grid">
-      <div className='w-[1170px] h-[154px] ml-[200px] self-center text-center flex'></div>
-        {/* <h2 className='text-3xl/[34px] text-white'>Impressed With Our Services?</h2>
-        <p className='text-sm/[14px] text-white'>Leave us a message or request for a service?</p> */}
-
+      <div className='w-[1170px] h-[154px] ml-[200px] self-center text-center'>
+        <h2 className='text-3xl/[34px] text-white mb-[20px]'>Impressed With Our Services  ?</h2>
+        <p className='text-sm/[14px] text-white'>Leave us a message or request for a services ?</p>
+        <button className='bg-white text-black px-[20px] py-[10px] mt-[20px] text-sm rounded hover:bg-slate-500 transition'>Contact Us</button>
+      </div>
     </div>
     </>
   )
