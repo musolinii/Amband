@@ -1,4 +1,4 @@
-
+import mobile from '/src/assets/mobile.png';
 
 
 function Home() {
@@ -39,6 +39,41 @@ function Home() {
 
       <div className="bg-[url('/src/assets/team.png')] w-[800px] h-[511px]">
       </div>
+
+    </div>
+
+    <div className="my-[100px] mx-[220px] w-[1170px] h-[680px] grid grid-cols-2">
+      <div className="col-span-2">
+        <h4 className='text-lg/[28px] font-bold text-center'>OUR WORK</h4>
+
+      </div>
+      <div className="bg-slate-300">
+
+      </div>
+      <div className="bg-slate-300">
+
+      </div>
+
+    </div>
+
+    <div className="w-full h-[377px] bg-slate-300 grid" >
+      <div className="self-center w-[1200px] h-[228px] ml-[200px] grid grid-cols-2 gap-x-0">
+        <div className="w-[370px] h-[228px]">
+        <img  src={mobile} alt={"Phone"}/>
+        </div>
+        <div className="w-[800px] h-[228px] ml-[20px]">
+          <h4 className='text-lg/[28px] font-bold'>OUR SERVICES</h4>
+          <p className="text-sm/[14px] leading-relaxed">We offer a wide range of services that will cater to your every need. From web development to mobile applications, we have you covered.</p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div className="w-full h-[304px] bg-blue-900 grid">
+      <div className='w-[1170px] h-[154px] ml-[200px] self-center text-center flex'></div>
+        {/* <h2 className='text-3xl/[34px] text-white'>Impressed With Our Services?</h2>
+        <p className='text-sm/[14px] text-white'>Leave us a message or request for a service?</p> */}
 
     </div>
     </>
