@@ -4,50 +4,47 @@ function About() {
 
   return (
     <>
-      <div className="bg-slate-800 w-full h-[170px] grid ">
+      <div className="bg-[url('/src/assets/team-banner.png')] w-full h-[170px] grid ">
 
-        <p className='place-self-center'>About Us</p>
-
-      </div>
-
-      <div className="grid md:grid-cols-2 justify-between">
-        <div className="bg-slate-800 w-[170px] h-[170px] m-[20px]">
-
-        </div>
-
-        <div className="text-sm/[14px] px-[15px]">
-          <p>
-            Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.
-          </p><br />
-          <p>
-            Big data analytics is the often complex process of examining large and varied data sets, to uncover information — such as hidden patterns, unknown correlations, market trends and customer preferences — that can help organizations make informed business decisions. Analysis of big data allows analysts, researchers, scientists and business users to make better and faster decisions using data that was previously inaccessible or unusable.
-          </p><br />
-          <p>
-            Businesses can use advanced analytics techniques such as text analytics, machine learning, predictive analytics, data mining, statistics, data management and natural language processing to gain new insights from previously untapped data sources independently or together with existing enterprise data.
-          </p><br />
-          <p>
-          Data analytics can also include exploratory data analysis (to identify patterns and relationships in data) and confirmatory data analysis (applying statistical techniques to find out whether an assumption about a particular data set is true or false.)
-          </p>
-        </div>
-
+        <span className='place-self-center text-white'>About Us</span>
 
       </div>
 
-      <div className='grid md:grid-cols-3 gap-[10px] justify-items-center'>
-          <div className="bg-black w-1/3 h-[80px] m-[5px]    ">
+      <div className="w-full h-[400px] grid grid-cols-2">
+
+        <div className=" w-[800px] h-[511px] ">
+
+          <div className="w-[670px] h-[360px] mt-[80px] ml-[80px]">
+
+
+            <h6 className="text-lg/[28px] font-bold mb-[30px]">Amband is an Information System Company</h6>
+
+            <p className="text-sm/[14px] leading-relaxed">We are an innovative and dynamic information technology company that prides itself by offering bespoke and <strong>"out of the box"</strong> IT related solutions to our clients. With Amband’s company philosophy of providing a large range of services and solutions at an affordable price, we should be your one and only port of call.</p><br />
+            <p className="text-sm/[14px] leading-relaxed">Amband has a specialist team of consultants who are skilled and qualified in their various fields, technologies and methodologies and who discharge their duties effectively, efficiently and flexibly to ensure an organization’s goals are met and objectives satisfied.</p>
+          </div>
+
+        </div>
+
+        <div className="bg-[url('/src/assets/team.png')] w-[800px] h-[370px]">
+        </div>
+
+      </div>
+
+      <div className='grid grid-cols-3 w-full h-[405px] place-items-center'>
+          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
+            <h3 className="font-bold place-self-center">MISSION</h3>
 
           </div>
 
-          <div className="bg-black w-1/3 h-[80px] m-[5px]   ">
+          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
+            <h3 className="font-bold place-self-center">VISSION</h3>
 
           </div>
 
-
-          <div className="bg-black w-1/3 h-[80px] m-[5px]   ">
-
+          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
+            <h3 className="font-bold place-self-center">OBJECTIBES</h3>
 
           </div>
-
         </div>
     
     </>

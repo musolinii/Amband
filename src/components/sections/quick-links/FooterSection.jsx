@@ -1,9 +1,9 @@
 
 const FooterSection = () => {
   return (
-    <footer className="bg-slate-300 py-8 text-slate-600 h-[400px]">
+    <footer className="bg-slate-100 py-8 text-slate-600 h-[400px]">
       <div className="container mx-[180px] px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed mr-[350px]">
           <div>
             <h3 className="text-lg font-bold mb-4">About Us</h3>
             <p >
