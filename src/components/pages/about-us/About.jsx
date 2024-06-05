@@ -1,3 +1,5 @@
+import React from 'react'
+import './About.css'
 
 function About() {
   
@@ -31,19 +33,48 @@ function About() {
       </div>
 
       <div className='grid grid-cols-3 w-full h-[405px] place-items-center'>
-          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
-            <h3 className="font-bold place-self-center">MISSION</h3>
 
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex items-center justify-center text-black border-solid border-2 border-black">
+                <h3 className="font-bold place-self-center">MISSION</h3>
+              </div>
+              <div className="flip-card-back flex items-center justify-center text-black text-2xl border-solid bg-white border-2 border-black flex flex-col leading-relaxed ">
+                <h3 className='text-sm font-bold my-[20px]'>Mission</h3>
+                <p className='text-center text-sm'>To provide fast, secure and reliable solutions and services which are aligned to the clients’ needs and help their organization to achieve their set goals and objectives.</p>
+              </div>
+            </div>
           </div>
 
-          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
-            <h3 className="font-bold place-self-center">VISSION</h3>
-
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex items-center justify-center text-black border-solid border-2 border-black">
+                <h3 className="font-bold place-self-center">VISSION</h3>
+              </div>
+              <div className="flip-card-back flex items-center justify-center text-black text-2xl border-solid bg-white border-2 border-black flex flex-col ">
+              <h3 className='text-sm font-bold my-[20px]'>Vission</h3>
+              <p className='text-center text-sm'>To be the best provider of integrated ICT security, solutions and services.</p>
+              </div>
+            </div>
           </div>
 
-          <div className="w-[500px] h-[250px] border-solid border-2 border-black grid">
-            <h3 className="font-bold place-self-center">OBJECTIBES</h3>
-
+          <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front flex items-center justify-center text-black border-solid border-2 border-black">
+                <h3 className="font-bold place-self-center">OBJECTIVES</h3>
+              </div>
+              <div className="flip-card-back flex items-center justify-center text-black border-solid bg-white border-2 border-black text-sm flex flex-col leading-lazy">
+                <h3 className='text-sm font-bold my-[20px]'>Objectives</h3>
+                <p className='mb-[20px]'>Amband Objectives are as follows;</p>
+                <ul>
+                  <li>Commitment to the customer</li>
+                  <li>Teamwork</li>
+                  <li>Provision of quality services and solutions to our customers.</li>
+                  <li>Meeting the customers' needs within the agreed period.</li>
+                  <li>Putting customers’ needs first.</li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
     
@@ -52,3 +83,15 @@ function About() {
 }
 
 export default About;
+
+
+// <div class="perspective-1000 cursor-pointer">
+// <div class="relative transform-style-3d transition-transform duration-700 transform text-white hover:rotate-y-180">
+//   <div class="backface-hidden absolute w-full h-full inset-0 rotate-y-0">
+//     front
+//   </div>
+//   <div class="backface-hidden absolute w-full h-full inset-0 rotate-y-180">
+//     back
+//   </div>
+// </div>
+// </div>
