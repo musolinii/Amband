@@ -6,7 +6,7 @@ import Logo from "../../assets/amband.png";
 
 const Navbar = () => {
     return (
-      <nav className="bg-white p-4 h-[100px] text-sm/[14px]">
+      <nav className="bg-white p-4 w-full h-[100px] text-sm/[14px] shadow-md ">
         <div className="container mx-auto flex justify-between items-center">
           <a href="home" className="text-white text-2xl font-bold">
           <div className="ml-[180px] mt-[8px]">
