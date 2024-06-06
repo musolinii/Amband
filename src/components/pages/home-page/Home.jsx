@@ -1,5 +1,5 @@
 import mobile from '/src/assets/mobile.png';
-
+import { Link } from "react-router-dom";
 
 function Home() {
   
@@ -42,18 +42,59 @@ function Home() {
 
     </div>
 
-    <div className="my-[100px] mx-[220px] w-[1170px] h-[680px] grid grid-cols-2">
-      <div className="col-span-2">
-        <h4 className='text-lg/[28px] font-bold text-center'>OUR WORK</h4>
+    <div className="my-[100px] mx-[220px] w-[1170px] h-[85px]">
+      <div className='w-full h-[85px] '>
+        <h4 className='text-lg/[28px] font-bold text-center py-[20px]'>OUR WORK</h4>
+      </div>
+    </div>
+
+    <div className="mx-[220px] w-[1170px] h-[600px] grid grid-cols-2">
+      <div className='w-[550px] h-full grid gap-2 text-[14px] leading-relaxed'>
+        <div className='w-[534px] h-[170px] '>
+          <h5 className='font-bold mb-[20px]'>Our Services</h5>
+          <p className='mb-[30px]'>Amband offers the following services to our clients; Software and website development, ICT consultancy, ICT support and maintenance, Monitoring and Evaluation, IS audit and IT governance.</p>
+          <Link to="/services" className='text-blue-500'>Read More</Link>
+        </div>
+        <div className='w-[534px] h-[170px]'>
+          <h5 className='font-bold mb-[20px]'>Security Products</h5>
+          <p className='mb-[30px]'>Amband offers a variety of security services ranging from Absolute software, stoptrack and CCTV installation and maintenance.</p>
+          <Link to="/security-products" className='text-blue-500'>Read More</Link>
+        </div>
+        <div className='w-[534px] h-[170px]'>
+          <h5 className='font-bold mb-[20px]'>BIG DATA</h5>
+          <p className='mb-[30px]'><b>Big Data</b> brings together <b>data</b> from many disparate sources and applications.</p>
+          <Link to="/big-data" className='text-blue-500'>Read More</Link>
+        </div>
 
       </div>
-      <div className="bg-slate-300">
+
+      <div className='w-[600px] h-full grid gap-2 text-[14px] leading-relaxed'>
+        <div className='w-[534px] h-[170px] '>
+          <h5 className='font-bold mb-[20px]'>Solutions</h5>
+          <p className='mb-[30px]'>Amband offers the following solutions to our clients; Asset management system, Hospital Management Information Systems, Academic and student management systems.</p>
+          <Link to="/solutions" className='text-blue-500'>Read More</Link>
+        </div>
+        <div className='w-[534px] h-[250px] '>
+          <h5 className='font-bold mb-[20px]'>RFID</h5>
+            <p>Amband offers the following RFID solutions;</p>
+              <ul className='mb-[30px]'>
+                <li>Supply chain management</li>
+                <li>Asset/ inventory management</li>
+                <li>Document/ file tracking</li>
+                <li>Production automation</li>
+                <li>Healthcare</li>
+                <li>vehicle tracking and management</li>
+              </ul>
+          <Link to="/RFID-solutions" className='text-blue-500'>Read More</Link>
+
+        </div>
+        <div className='w-[534px] h-[170px] '>
+          <h5 className='font-bold mb-[20px]'>Research</h5>
+          <p className='mb-[30px]'>Professional ICT research Consultunts</p>
+          <Link to="/research" className='text-blue-500'>Read More</Link>
+        </div>
 
       </div>
-      <div className="bg-slate-300">
-
-      </div>
-
     </div>
 
     <div className="w-full h-[377px]  grid" >
