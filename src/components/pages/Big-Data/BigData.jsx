@@ -4,51 +4,69 @@ function BigData() {
 
   return (
     <>
-      <div className="bg-slate-800 w-full h-[170px] grid ">
+      <div className="bg-[url('src/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
-        <p className='place-self-center'>Big Data</p>
+        <p className='place-self-center text-black'>BIG DATA</p>
+      </div>
+
+      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]">
+
+        <div className="w-full h-[445px] mr-[30px] mt-[30px]">
+          <img src="src/assets/bigdata.png" alt="data-analytics" className="w-full h-[400px]" />
+        </div>
+         
+        <div className="w-[600px] h-full mt-[50px] ml-[30px]">
+          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+            <p>
+              The term “big data” refers to data that is so large, fast or complex that it’s difficult or impossible to process using traditional methods. Big data describes the large volume of data – both structured, semi-structured and unstructured – that inundates a business on a day-to-day basis.            </p><br />
+            <p>
+              Big data has one or more of the following characteristics: high volume, high velocity or high variety. Artificial intelligence (AI), mobile, social and the Internet of Things (IoT) are driving data complexity through new forms and sources of data.            </p><br />
+            <p>
+              “Big data” is a field that devises ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. Big data challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy and data source.          
+            </p><br />
+            <p>
+              But it’s not the amount of data that’s important. It’s what organizations do with the data that matters. These massive volumes of data can be used to address business problems organizations wouldn’t have been able to tackle before. Big data can be analyzed for insights that lead to better decisions and strategic business moves.
+            </p><br />
+            <p>
+              Current usage of the term big data tends to refer to the use of predictive analytics, user behavior analytics, or certain other advanced data analytics methods that extract value from data, and seldom to a particular size of data set.
+            </p>
+          </div>
+        </div>
+
+        
+        
 
       </div>
 
-      <div className="grid md:grid-cols-2 justify-between">
-        <div className="bg-slate-800 w-[170px] h-[170px] m-[20px]">
-
+      <div className="grid grid-cols-3 gap-2 w-[1200px] ml-[200px] mb-[40px]">
+        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+          <div className="place-self-center px-[10px]">
+            <h4 className="font-bold text-[28px]">Data Analytics</h4>
+            <p className="text-[11px]">Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.</p>
+            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+          </div>
+                
         </div>
 
-        <div className="text-sm/[14px] px-[15px]">
-          <p>
-            Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.
-          </p><br />
-          <p>
-            Big data analytics is the often complex process of examining large and varied data sets, to uncover information — such as hidden patterns, unknown correlations, market trends and customer preferences — that can help organizations make informed business decisions. Analysis of big data allows analysts, researchers, scientists and business users to make better and faster decisions using data that was previously inaccessible or unusable.
-          </p><br />
-          <p>
-            Businesses can use advanced analytics techniques such as text analytics, machine learning, predictive analytics, data mining, statistics, data management and natural language processing to gain new insights from previously untapped data sources independently or together with existing enterprise data.
-          </p><br />
-          <p>
-          Data analytics can also include exploratory data analysis (to identify patterns and relationships in data) and confirmatory data analysis (applying statistical techniques to find out whether an assumption about a particular data set is true or false.)
-          </p>
+        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+          <div className="place-self-center px-[10px]">
+            <h4 className="font-bold text-[28px]">Visualization</h4>
+            <p className="text-[11px]">Data visualization is the presentation of data in a pictorial or graphical format. It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.</p>
+            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+          </div>
+                
         </div>
 
-
+        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+          <div className="place-self-center px-[10px]">
+            <h4 className="font-bold text-[28px]">Machine Learning</h4>
+            <p className="text-[11px]">Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.</p>
+            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+          </div>
+                
+        </div>
       </div>
-
-      <div className='grid md:grid-cols-3 gap-[10px] justify-items-center'>
-          <div className="bg-black w-1/3 h-[80px] m-[5px]    ">
-
-          </div>
-
-          <div className="bg-black w-1/3 h-[80px] m-[5px]   ">
-
-          </div>
-
-
-          <div className="bg-black w-1/3 h-[80px] m-[5px]   ">
-
-
-          </div>
-
-        </div>
+    
     
     </>
   )
