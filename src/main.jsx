@@ -20,7 +20,6 @@ import MachineLearning from './components/pages/Big-Data/MachineLearning.jsx';
 import CS from './components/pages/services-page/CyberSecurity.jsx';
 import IAG from './components/pages/services-page/IAG.jsx';
 import ICS from './components/pages/services-page/ICS.jsx';
-import IT from './components/pages/services-page/IT-services.jsx';
 import Support from './components/pages/services-page/IT-Support.jsx';
 import Security from './components/pages/services-page/SecurityProducts.jsx';
 import WSD from './components/pages/services-page/WSD.jsx';
@@ -91,11 +90,6 @@ const router = createBrowserRouter([
       {
         path: "ics",
         element: <ICS />,
-      
-      },
-      {
-        path: "it-services",
-        element: <IT />,
       
       },
       {
