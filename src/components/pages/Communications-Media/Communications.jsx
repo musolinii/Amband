@@ -4,9 +4,9 @@ function Communications() {
 
   return (
     <>
-      <div className="bg-[url('/src/assets/comm.jpg')] w-full h-[170px] grid ">
+      <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
 
-        <span className='place-self-center text-white'>About Us</span>
+        <span className='place-self-center text-white'>Communications and Media</span>
 
       </div>
 

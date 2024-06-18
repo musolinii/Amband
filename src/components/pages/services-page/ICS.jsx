@@ -4,9 +4,9 @@ function ICS() {
 
     return (
       <>
-      <div className="bg-[url('/src/assets/comm.jpg')] w-full h-[170px] grid ">
+      <div className="bg-[url('/src/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
-        <span className='place-self-center text-white'>About Us</span>
+        <span className='place-self-center text-white'>ICT Consulting Services</span>
 
       </div>
 

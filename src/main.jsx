@@ -21,7 +21,6 @@ import CS from './components/pages/services-page/CyberSecurity.jsx';
 import IAG from './components/pages/services-page/IAG.jsx';
 import ICS from './components/pages/services-page/ICS.jsx';
 import Support from './components/pages/services-page/IT-Support.jsx';
-import Security from './components/pages/services-page/SecurityProducts.jsx';
 import WSD from './components/pages/services-page/WSD.jsx';
 import BPR from './components/pages/services-page/BPR.jsx';
 import RBAM from './components/pages/RFID-solutions/RBAM.jsx';
@@ -95,11 +94,6 @@ const router = createBrowserRouter([
       {
         path: "it-support",
         element: <Support />,
-      
-      },
-      {
-        path: "security-products",
-        element: <Security />,
       
       },
       {
