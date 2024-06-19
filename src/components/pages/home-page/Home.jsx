@@ -76,6 +76,7 @@ function Home() {
       </div>
     </div>
 
+
     <div className="mx-[220px] w-[1170px] h-[600px] grid grid-cols-2">
       <div className='w-[550px] h-full grid gap-2 text-[14px] leading-relaxed'>
         <div className='w-[534px] h-[170px] '>

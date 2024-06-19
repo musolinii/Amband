@@ -4,7 +4,7 @@ function CS() {
 
     return (
     <>
-      <div className="bg-[url('/src/assets/matrix.jpg')] w-full h-[170px] grid ">
+      <div className="bg-[url('assets/matrix.jpg')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Cyber Security</span>
 
@@ -35,7 +35,7 @@ function CS() {
         </div>
 
        <div className="w-full h-[445px] m-[20px]">
-         <img src="src/assets/security.jpg" alt="data-analytics" className="w-full h-[400px]" />
+         <img src="/src/assets/security.jpg" alt="data-analytics" className="w-full h-[400px]" />
        </div>         
 
       </div>
