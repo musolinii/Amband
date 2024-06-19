@@ -4,6 +4,13 @@ function RFDM() {
 
     return (
       <>
+
+      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
+
+        <span className='place-self-center text-white'>RFID Document and File Management</span>
+
+      </div>
+
       <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]"> 
         <div className="w-[600px] mt-[50px]">
           <div className="text-sm/[14px] px-[15px] leading-relaxed">
@@ -19,7 +26,7 @@ function RFDM() {
         </div>
 
        <div className="w-full h-[445px] m-[20px]">
-         <img src="src/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
+         <img src="/src/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
        </div>         
 
       </div>

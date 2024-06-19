@@ -5,16 +5,16 @@ function RBAM() {
     return (
       <>
 
-      <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>RFID Solutions</span>
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]"> 
+      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px] mt-[100px]"> 
 
         <div className="w-full h-[445px] m-[20px]">
-           <img src="src/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
+           <img src="/src/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
         </div>    
 
         <div className="w-[600px] h-[445px] mt-[50px] ml-[30px]">
@@ -29,7 +29,7 @@ function RBAM() {
         </div>
 
         <div>
-          <p>Ambands Asset Management system contains the following Modules</p>
+          <p className="mb-[50px]">Ambands Asset Management system contains the following Modules</p>
           <ul>
             <li>Fixed asset accounting</li>
             <li>Capital Project Control</li>
@@ -44,7 +44,7 @@ function RBAM() {
         </div>
 
         <div className="w-full h-[445px] m-[20px]">
-           <img src="src/assets/rfid.jpg" alt="data-analytics" className="w-full h-[400px]" />
+           <img src="/src/assets/rfid.jpg" alt="data-analytics" className="w-full h-[400px]" />
         </div>    
       </div>
 

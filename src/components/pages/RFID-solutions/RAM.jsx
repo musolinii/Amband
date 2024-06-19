@@ -5,7 +5,7 @@ function RAM() {
     return (
       <>
   
-      <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>RFID Solutions</span>
 
@@ -23,7 +23,7 @@ function RAM() {
         </div>
 
         <div className="w-[320px] grid ml-[200px]">
-          <img src="src/assets/locker.jpg" alt="data-analytics" className="w-full h-[400px] place-self-center" />
+          <img src="/src/assets/locker.jpg" alt="data-analytics" className="w-full h-[400px] place-self-center" />
         </div>
   
       </div>

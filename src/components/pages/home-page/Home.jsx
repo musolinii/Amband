@@ -1,7 +1,20 @@
+import React from 'react';
 import mobile from '/src/assets/mobile.png';
 import { Link } from "react-router-dom";
+import { Modal } from '@material-ui/core';
+import ContactForm from '../../forms/ContactForm';
 
 function Home() {
+
+  const [open, setOpen] = React.useState(false);
+
+	const handleClose = () => {
+		setOpen(false);
+	};
+
+	const handleOpen = () => {
+		setOpen(true);
+	};
 
   
   
@@ -9,6 +22,18 @@ function Home() {
 
   return (
     <>
+
+    <Modal
+      onClose={handleClose}
+      open={open}
+      style={{
+        margin:"100px 500px "
+      }}
+    >
+      <>
+        <ContactForm />
+      </>
+    </Modal>
      
     <div className="bg-[url('/src/assets/hero.png')] w-full h-[600px] ">
     </div>
@@ -118,7 +143,7 @@ function Home() {
       <div className='w-[1170px] h-[154px] ml-[200px] self-center text-center'>
         <h2 className='text-3xl/[34px] text-white mb-[20px]'>Impressed With Our Services  ?</h2>
         <p className='text-sm/[14px] text-white'>Leave us a message or request for a services ?</p>
-        <button onClick={()=> console.log("nnn")} className='bg-white text-black px-[20px] py-[10px] mt-[20px] text-sm rounded hover:bg-slate-500 transition'>Contact Us</button>
+        <button onClick={handleOpen} className='bg-white text-black px-[20px] py-[10px] mt-[20px] text-sm rounded hover:bg-slate-500 transition'>Contact Us</button>
   
       </div>
     </div>

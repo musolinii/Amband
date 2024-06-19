@@ -5,7 +5,7 @@ function RFID() {
   return (
     <>
 
-      <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>RFID Solutions</span>
 
@@ -21,7 +21,7 @@ function RFID() {
          </div>
  
          <div className="w-full h-[445px] m-[20px]">
-           <img src="src/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
+           <img src="/src/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
          </div>         
  
       </div>
