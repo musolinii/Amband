@@ -12,7 +12,7 @@ function RSM() {
 
       </div>
 
-        <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]"> 
+        <div className="grid grid-cols-2 w-[1200px]  ml-[200px]"> 
           <div className="w-[600px]  mt-[50px]">
             <div className="text-sm/[14px] px-[15px] leading-relaxed">
               <p className="text-left">
@@ -36,8 +36,20 @@ function RSM() {
               
               <div className="w-full h-[445px] m-[20px]">
                 <img src="/src/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
-              </div>         
+              </div>    
 
+              
+              <div className="mt-[100px]">
+                <p className="text-left">
+                            <strong>AM-SCMS</strong>   optimizes an organizations SCM process by increasing productivity and efficiency by implementing;
+                </p><br />
+
+                <h4>Physical Flows</h4>
+                <p>Physical flows involve the transformation, movement, and storage of goods and materials. They are the most visible piece of the <strong>AM-SCMS</strong></p><br />
+
+                <h4>Iformation Flows</h4>
+                <p>Information flows allow the various organization departments to coordinate its’ long-term plans, and to control the day-to-day flow of goods and materials up and down the supply chain.</p>
+              </div>
 
             </div>
           </div>
@@ -53,17 +65,62 @@ function RSM() {
             <strong>AM-SCMS</strong>  encompasses the integrated planning and execution of processes required to optimize the flow of materials, information and financial capital in the areas that broadly include demand planning, sourcing, production, inventory management and storage, transportation — or logistics — and return for excess or defective products.
            </p><br />
           </div>
+
+          <div className="mt-[150px]">
+            <img src="/src/assets/access.jpg" alt="data-analytics" className="w-full h-[400px]" />
+          </div>
            
          </div> 
 
          
 
+        
 
- 
+        </div>
+
+        <div className="w-[1200px] h-full ml-[200px] flex ">
+          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
+            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+          </div>
+
+          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
+            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+          </div>
+
+          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
+            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+          </div>
+
+          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
+            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+          </div>
+
+          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
+            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+          </div>
+
         </div>
       </>
     )
   }
   
-  export default RSM;
+export default RSM;
   
+
+
+  <div className="mt-[250px]">
+              <p className="text-left">
+                <strong>AM-SCMS</strong>   optimizes an organizations SCM process by increasing productivity and efficiency by implementing;
+              </p><br />
+
+              <h4>Physical Flows</h4>
+              <p>Physical flows involve the transformation, movement, and storage of goods and materials. They are the most visible piece of the <strong>AM-SCMS</strong></p><br />
+
+              <h4>Iformation Flows</h4>
+              <p>Information flows allow the various organization departments to coordinate its’ long-term plans, and to control the day-to-day flow of goods and materials up and down the supply chain.</p>
+  </div>

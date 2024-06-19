@@ -1,9 +1,11 @@
+import { faEnvelope, faGlobe, faLocationDot, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FooterSection = () => {
   return (
     <footer className="bg-slate-100 py-8 text-slate-600 h-[400px]">
-      <div className="container mx-[180px] px-4">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed mr-[350px]">
+      <div className="container px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed ">
           <div>
             <h3 className="text-lg font-bold mb-4">About Us</h3>
             <p >
@@ -28,13 +30,23 @@ const FooterSection = () => {
               <li><a href="#" className="hover:underline">Stoptrack</a></li>
             </ul>
           </div>
-          <div>
+          <div className="grid">
             <h3 className="text-lg font-bold mb-4">Contact </h3>
-            <ul>
-              <li><a href="#" className="hover:underline">Privacy Policy</a></li>
-              <li><a href="#" className="hover:underline">Terms of Service</a></li>
-              <li><a href="#" className="hover:underline">Cookie Policy</a></li>
-            </ul>
+            <div>
+              <FontAwesomeIcon icon={faPhone}/> +254 720 970 959 
+            </div>
+
+            <div>
+              <FontAwesomeIcon icon={faEnvelope}/> info@amband.co.ke
+            </div>
+
+            <div>
+              <FontAwesomeIcon icon={faLocationDot}/> Pili Trade Center, <br /> Opp Hilton Garde Inn, Mombasa Road <br /> P.O. Box 2882 - 00200, NAIROBI,Kenya
+            </div>
+
+            <div>
+              <FontAwesomeIcon icon={faGlobe}/> www.amband.co.ke
+            </div>
           </div>
         </div>
       </div>
