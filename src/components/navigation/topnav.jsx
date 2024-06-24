@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import RFIDdropdown from "./RFIDdropdown";
 import BigDatadropdown from "./BigDatadropdown";
 import Servicesdropdown from "./Servicesdropdown";
-import Logo from "../../assets/amband.png";
+import Logo from "../../../public/assets/amband.png";
 
 const Navbar = () => {
     return (

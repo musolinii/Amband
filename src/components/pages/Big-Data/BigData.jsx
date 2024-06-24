@@ -4,7 +4,7 @@ function BigData() {
 
   return (
     <>
-      <div className="bg-[url('src/assets/sub-banner01.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
         <p className='place-self-center text-black'>BIG DATA</p>
       </div>
@@ -12,7 +12,7 @@ function BigData() {
       <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]">
 
         <div className="w-full h-[445px] mr-[30px] mt-[30px]">
-          <img src="src/assets/bigdata.png" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/bigdata.png" alt="data-analytics" className="w-full h-[400px]" />
         </div>
          
         <div className="w-[600px] h-full mt-[50px] ml-[30px]">

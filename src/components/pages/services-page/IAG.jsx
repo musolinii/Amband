@@ -41,7 +41,7 @@ function IAG() {
 
         </div>
 
-        <div className="bg-[url('/src/assets/computer.jpg')] w-[800px] h-[370px]">
+        <div className="bg-[url('/assets/computer.jpg')] w-[800px] h-[370px]">
         </div>
 
       </div>
