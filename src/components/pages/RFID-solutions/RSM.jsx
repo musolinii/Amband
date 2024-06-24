@@ -35,7 +35,7 @@ function RSM() {
 
               
               <div className="w-full h-[445px] m-[20px]">
-                <img src="/src/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
+                <img src="/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
               </div>    
 
               
@@ -55,7 +55,7 @@ function RSM() {
           </div>
  
          <div className="w-full  m-[20px]">
-          <img src="/src/assets/rfidsupply.jpg" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/rfidsupply.jpg" alt="data-analytics" className="w-full h-[400px]" />
           <div className="mt-[250px]">
             <p className="text-left">
               <strong>AM-SCMS</strong>  business processes encompass procurement, product lifecycle management (PLM), supply chain planning (SCP), logistics and order management. It is a complete, end-to-end supply chain management system that includes the material handling and software packages for all the parties who work together to create the product, fulfill orders, and keep track of information including suppliers, manufacturers, wholesalers, transportation providers, logistics providers, and retailers.
@@ -67,7 +67,7 @@ function RSM() {
           </div>
 
           <div className="mt-[150px]">
-            <img src="/src/assets/access.jpg" alt="data-analytics" className="w-full h-[400px]" />
+            <img src="/assets/access.jpg" alt="data-analytics" className="w-full h-[400px]" />
           </div>
            
          </div> 

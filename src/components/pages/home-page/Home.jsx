@@ -1,5 +1,5 @@
 import React from 'react';
-import mobile from '/src/assets/mobile.png';
+import mobile from '/assets/mobile.png';
 import { Link } from "react-router-dom";
 import { Modal } from '@material-ui/core';
 import ContactForm from '../../forms/ContactForm';
@@ -35,7 +35,7 @@ function Home() {
       </>
     </Modal>
      
-    <div className="bg-[url('/src/assets/hero.png')] w-full h-[600px] ">
+    <div className="bg-[url('/assets/hero.png')] w-full h-[600px] ">
     </div>
 
     <div className="w-full h-[325px] grid ">
@@ -65,7 +65,7 @@ function Home() {
 
       </div>
 
-      <div className="bg-[url('/src/assets/team.png')] w-[800px] h-[511px]">
+      <div className="bg-[url('/assets/team.png')] w-[800px] h-[511px]">
       </div>
 
     </div>

@@ -7,7 +7,7 @@ function Services() {
 
   return (
     <>
-      <div className="bg-[url('/src/assets/services.jpg')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/services.jpg')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Services</span>
 
@@ -22,7 +22,7 @@ function Services() {
         </div>
         
         <div className="w-full h-[300px] flex flex-row justify-between">
-          <img src="/src/assets/code.jpeg" alt="code" />
+          <img src="/assets/code.jpeg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">01. Website And Software Development</h5>
@@ -45,12 +45,12 @@ function Services() {
             </Link>
             </div>
 
-          <img src="/src/assets/handshake.jpg" alt="code" />
+          <img src="/assets/handshake.jpg" alt="code" />
           
         </div>
 
         <div className="w-full h-[300px] flex flex-row justify-between">
-          <img src="/src/assets/bpr.jpeg" alt="code" />
+          <img src="/assets/bpr.jpeg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">03. Business Process Reengineering</h5>
@@ -74,14 +74,14 @@ function Services() {
             </Link>
           </div>
 
-          <img src="/src/assets/support.png" alt="code" />
+          <img src="/assets/support.png" alt="code" />
 
           
           
         </div>
 
         <div className="w-full h-[300px] flex flex-row justify-between">
-          <img src="/src/assets/audit.jpg" alt="code" />
+          <img src="/assets/audit.jpg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">05. IS Audit and Governance</h5>
@@ -104,7 +104,7 @@ function Services() {
               <button className="w-[100px] h-[40px] bg-blue-800 text-white rounded-md">Read More</button>
             </Link>          </div>
 
-          <img src="/src/assets/computers.jpg" alt="code" />
+          <img src="/assets/computers.jpg" alt="code" />
           
         </div>
       </div>

@@ -4,7 +4,7 @@ function WSD() {
 
     return (
       <>
-      <div className="bg-[url('/src/assets/team-banner.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/team-banner.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Website and Software Development</span>
 
@@ -25,7 +25,7 @@ function WSD() {
           </div>
 
           <div>
-            <img src="/src/assets/handshake.jpg" alt="comm" />
+            <img src="/assets/handshake.jpg" alt="comm" />
           </div>
 
           <div className="leading-relaxed">
@@ -45,7 +45,7 @@ function WSD() {
           </div>
 
           <div>
-            <img src="/src/assets/graph.jpg" alt="comm" />
+            <img src="/assets/graph.jpg" alt="comm" />
           </div>
 
           <div className="leading-relaxed">

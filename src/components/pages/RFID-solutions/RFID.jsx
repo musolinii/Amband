@@ -23,7 +23,7 @@ function RFID() {
          </div>
  
          <div className="w-full h-[445px] m-[20px]">
-           <img src="/src/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
+           <img src="/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
 
          </div>         
  

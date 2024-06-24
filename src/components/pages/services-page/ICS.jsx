@@ -4,7 +4,7 @@ function ICS() {
 
     return (
       <>
-      <div className="bg-[url('/src/assets/sub-banner01.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>ICT Consulting Services</span>
 
@@ -43,7 +43,7 @@ function ICS() {
 
         <div className="ml-[20px] w-[600px] mt-[50px] grid"> 
           <div>
-            <img src="/src/assets/computer.jpg" alt="comm" />
+            <img src="/assets/computer.jpg" alt="comm" />
           </div>
 
           <div className="leading-relaxed">

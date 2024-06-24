@@ -4,7 +4,7 @@ function Communications() {
 
   return (
     <>
-      <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Communications and Media</span>
 
@@ -27,7 +27,7 @@ function Communications() {
           </div>
 
           <div className="my-[20px]">
-            <img src="/src/assets/studio.jpg" alt="studio" />
+            <img src="/assets/studio.jpg" alt="studio" />
           </div>  
 
           <div className="leading-relaxed">
@@ -49,7 +49,7 @@ function Communications() {
         <div className="ml-[20px] w-[600px] mt-[50px] grid"> 
 
           <div>
-            <img src="/src/assets/marketing.png" alt="comm" />
+            <img src="/assets/marketing.png" alt="comm" />
           </div>
 
           <div className="leading-relaxed">
@@ -70,7 +70,7 @@ function Communications() {
           </div>
 
           <div>
-            <img src="/src/assets/identity.png" alt="id" />
+            <img src="/assets/identity.png" alt="id" />
           </div>
 
           <div className="leading-relaxed">

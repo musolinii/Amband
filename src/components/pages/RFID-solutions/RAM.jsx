@@ -23,7 +23,7 @@ function RAM() {
         </div>
 
         <div className="w-[320px] grid ml-[200px]">
-          <img src="/src/assets/locker.jpg" alt="data-analytics" className="w-full h-[400px] place-self-center" />
+          <img src="/assets/locker.jpg" alt="data-analytics" className="w-full h-[400px] place-self-center" />
         </div>
   
       </div>

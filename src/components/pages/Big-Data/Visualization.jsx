@@ -3,7 +3,7 @@ function Visualization() {
   
   return (
     <>
-      <div className="bg-[url('src/assets/data-banner.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/data-banner.png')] w-full h-[170px] grid ">
 
         <p className='place-self-center text-black'>Data Visualization</p>
 
@@ -26,11 +26,11 @@ function Visualization() {
         </div>
 
         <div className="w-full h-[445px] m-[20px]">
-          <img src="src/assets/graph-1.png" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/graph-1.png" alt="data-analytics" className="w-full h-[400px]" />
         </div>
 
         <div className="w-full h-[445px] m-[20px]">
-          <img src="src/assets/graph.png" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/graph.png" alt="data-analytics" className="w-full h-[400px]" />
 
         </div>
 

@@ -4,7 +4,7 @@ function BPR() {
 
     return (
       <>
-        <div className="bg-[url('/src/assets/team-banner.png')] w-full h-[170px] grid ">
+        <div className="bg-[url('/assets/team-banner.png')] w-full h-[170px] grid ">
 
           <span className='place-self-center text-white'>Business Process Reengineering</span>
 
@@ -26,7 +26,7 @@ function BPR() {
           </div>
  
          <div className="w-full h-[445px] m-[20px]">
-           <img src="src/assets/bpr.jpeg" alt="data-analytics" className="w-full h-[400px]" />
+           <img src="/assets/bpr.jpeg" alt="data-analytics" className="w-full h-[400px]" />
          </div>         
  
         </div>

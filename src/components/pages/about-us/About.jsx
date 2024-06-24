@@ -27,7 +27,7 @@ function About() {
 
         </div>
 
-        <div className="bg-[url('/src/assets/team.png')] w-[800px] h-[370px]">
+        <div className="bg-[url('/assets/team.png')] w-[800px] h-[370px]">
         </div>
 
       </div>

@@ -26,7 +26,7 @@ function RFDM() {
         </div>
 
        <div className="w-full h-[445px] m-[20px]">
-         <img src="/src/assets/scan.jpg" alt="data-analytics" className="w-full h-full" />
+         <img src="/assets/scan.jpg" alt="data-analytics" className="w-full h-full" />
        </div>         
 
       </div>

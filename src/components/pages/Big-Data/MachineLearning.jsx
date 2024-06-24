@@ -4,7 +4,7 @@ function MachineLearning() {
 
   return (
     <>
-      <div className="bg-[url('src/assets/images.jpeg')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/images.jpeg')] w-full h-[170px] grid ">
 
         <p className='place-self-center text-white'>Machine Learning</p>
 
@@ -28,11 +28,11 @@ function MachineLearning() {
         </div>
 
         <div className="w-full h-[445px] m-[20px]">
-          <img src="src/assets/ml.png" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/ml.png" alt="data-analytics" className="w-full h-[400px]" />
         </div>
 
         <div className="w-full h-[445px] m-[20px]">
-          <img src="src/assets/ml-2.jpeg" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/ml-2.jpeg" alt="data-analytics" className="w-full h-[400px]" />
 
         </div>
 

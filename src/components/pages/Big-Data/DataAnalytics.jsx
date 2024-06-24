@@ -4,7 +4,7 @@ function DataAnalytics() {
 
   return (
     <>
-      <div className="bg-[url('src/assets/sub-banner01.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
         <p className='place-self-center text-white'>Data Analytics</p>
 
@@ -12,7 +12,7 @@ function DataAnalytics() {
 
       <div className="grid grid-cols-2 w-[1200px] h-[555px] ml-[200px] mt-[100px]">
         <div className="w-[600px] h-[400px] ">
-          <img src="src/assets/analysis.png" alt="data-analytics" className="w-full h-[400px]" />
+          <img src="/assets/analysis.png" alt="data-analytics" className="w-full h-[400px]" />
 
         </div>
 

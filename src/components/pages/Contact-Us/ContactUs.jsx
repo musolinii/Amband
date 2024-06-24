@@ -8,7 +8,7 @@ function ContactUs() {
 
   return (
     <>
-    <div className="bg-[url('/src/assets/laptop.png')] w-full h-[170px] grid ">
+    <div className="bg-[url('/assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Contact us</span>
 
