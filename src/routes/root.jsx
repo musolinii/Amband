@@ -10,7 +10,6 @@ export default function Root() {
         <>
             <Navbar />
             <Outlet />
-            <Home />
             <FooterSection />
             <Footer/>
         </>
