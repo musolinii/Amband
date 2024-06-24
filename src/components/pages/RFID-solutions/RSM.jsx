@@ -78,30 +78,30 @@ function RSM() {
 
         </div>
 
-        <div className="w-[1200px] h-full ml-[200px] flex ">
+        <div className="w-[1200px] h-full ml-[200px] flex flex-wrap gap-8 ">
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Visibility</h4>
             <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
           </div>
 
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
-            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
-            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+            <h4 className="text-blue-800 text-[16px]">Ease of Use</h4>
+            <p><strong>AM-SCMS</strong>   offers simple and intuitive user experiences that provide quick access to accurate and timely analytics, accessible anywhere and from virtually any device.</p>
           </div>
 
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
-            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
-            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+            <h4 className="text-blue-800 text-[16px]">Agility</h4>
+            <p>With <strong>AM-SCMS</strong>, an organization can quickly and securely deploy new services, business processes and workflows to easily scale up his productivity, efficiency and meet new challenges.</p>
           </div>
 
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
-            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
-            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+            <h4 className="text-blue-800 text-[16px]">Security</h4>
+            <p><strong>AM-SCMS</strong>   is a cloud based SCM thus the headache of security and back-ups is passed to the service provider thus leaving the client to concentrate on maximizing efficiency and productivity in the organization day to day activities.</p>
           </div>
 
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
-            <h4 className="text-blue-800 text-[16px]">Visibility</h4>
-            <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
+            <h4 className="text-blue-800 text-[16px]">Lower Operaional Cost</h4>
+            <p><strong>AM-SCMS</strong>   integrates most if not all supply chain business processes and workflows to enable seamless flow of information and goods and services from the convenience of a workspace or connected device in the field.</p>
           </div>
 
         </div>
