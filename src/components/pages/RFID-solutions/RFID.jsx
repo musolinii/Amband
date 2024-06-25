@@ -7,7 +7,7 @@ function RFID() {
   return (
     <>
 
-      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>RFID Solutions</span>
 
