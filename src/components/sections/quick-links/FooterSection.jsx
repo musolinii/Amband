@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const FooterSection = () => {
   return (
     <footer className="bg-slate-100 py-8 text-slate-600 h-[400px]">
-      <div className="container px-4">
+      <div className="container px-4 ">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed ">
           <div>
             <h3 className="text-lg font-bold mb-4">About Us</h3>

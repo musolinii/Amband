@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function BigData() {
   
@@ -43,7 +44,9 @@ function BigData() {
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Data Analytics</h4>
             <p className="text-[11px]">Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.</p>
-            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            <Link to="/data-analytics">
+              <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            </Link>
           </div>
                 
         </div>
@@ -52,7 +55,9 @@ function BigData() {
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Visualization</h4>
             <p className="text-[11px]">Data visualization is the presentation of data in a pictorial or graphical format. It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.</p>
-            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            <Link to = "/visualization">
+             <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            </Link>
           </div>
                 
         </div>
@@ -61,7 +66,9 @@ function BigData() {
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Machine Learning</h4>
             <p className="text-[11px]">Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.</p>
-            <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            <Link to = "/machine-learning">
+              <button className="text-black w-[100px] h-[30px] mt-[10px] border-2 border-blue-600 rounded-md">Read More</button>
+            </Link>
           </div>
                 
         </div>
