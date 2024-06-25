@@ -4,7 +4,7 @@ function CS() {
 
     return (
     <>
-      <div className="bg-[url('assets/matrix.jpg')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/matrix.jpg')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>Cyber Security</span>
 
