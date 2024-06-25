@@ -6,7 +6,7 @@ function RSM() {
       <>
 
 
-      <div className="bg-[url('assets/laptop.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/laptop.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>RFID Supply Chain Management</span>
 
