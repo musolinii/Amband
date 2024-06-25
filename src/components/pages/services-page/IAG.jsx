@@ -4,7 +4,7 @@ function IAG() {
 
     return (
       <>
-      <div className="bg-[url('assets/sub-banner01.png')] w-full h-[170px] grid ">
+      <div className="bg-[url('/assets/sub-banner01.png')] w-full h-[170px] grid ">
 
         <span className='place-self-center text-white'>IS Audit and Governance</span>
 
@@ -21,7 +21,7 @@ function IAG() {
 
         </div>
 
-        <div className="bg-[url('assets/audit.jpg')] w-[800px] h-[370px] mt-[20px]">
+        <div className="bg-[url('/assets/audit.jpg')] w-[800px] h-[370px] mt-[20px]">
         </div>
 
       </div>
