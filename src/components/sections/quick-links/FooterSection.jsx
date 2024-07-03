@@ -3,9 +3,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const FooterSection = () => {
   return (
-    <footer className="bg-slate-100 py-8 text-slate-600 w-full">
+    <footer className="bg-slate-100 py-8 text-slate-600 w-full flex flex-row items-center justify-center">
       <div className="container px-4 ">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-sm/[13px] leading-relaxed ">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-[13px] leading-relaxed ">
           <div>
             <h3 className="text-lg font-bold mb-4">About Us</h3>
             <p >
@@ -30,7 +30,7 @@ const FooterSection = () => {
               <li><a href="#" className="hover:underline">Stoptrack</a></li>
             </ul>
           </div>
-          <div className="grid">
+          <div >
             <h3 className="text-lg font-bold mb-4">Contact </h3>
             <div>
               <FontAwesomeIcon icon={faPhone}/> +254 720 970 959 
