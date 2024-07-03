@@ -11,7 +11,7 @@ function RAM() {
 
       </div>
        
-      <div className="grid grid-cols-2 mt-[100px] ml-[200px]">
+      <div className="grid grid-cols-2 mt-[100px]">
         <div className="text-sm/[14px] px-[15px] leading-relaxed text-left w-[800px]">
           <p>
             AMBAND has partnered with ARMS RFID to be able to supply their RFID Armory management system. The ARMS Armory Management System is a computerized registry of weapons, gear, ammo, officers, certifications and posts integrated with bar coding and RFID technology for rapid assignments, issues and returns, and supporting security infrastructure to prevent the unauthorized removal of weapons.

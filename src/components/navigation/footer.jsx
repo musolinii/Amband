@@ -8,7 +8,7 @@ const Footer = () => {
     };
 
     return (
-        <footer className="bg-slate-200 text-slate-600 py-8 h-[100px]">
+        <footer className="bg-slate-200 text-slate-600 py-8 w-full">
           <div className="text-gray-400 text-sm/[14px] ml-[180px]">
             &copy; 2024 MyWebsite. All rights reserved.
           </div>

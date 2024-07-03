@@ -12,7 +12,7 @@ function RSM() {
 
       </div>
 
-        <div className="grid grid-cols-2 w-[1200px]  ml-[200px]"> 
+        <div className="grid grid-cols-2 w-[1200px]"> 
           <div className="w-[600px]  mt-[50px]">
             <div className="text-sm/[14px] px-[15px] leading-relaxed">
               <p className="text-left">
@@ -78,7 +78,7 @@ function RSM() {
 
         </div>
 
-        <div className="w-[1200px] h-full ml-[200px] flex flex-wrap gap-8 ">
+        <div className="w-[1200px] h-full flex flex-wrap gap-8 ">
           <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Visibility</h4>
             <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>

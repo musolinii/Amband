@@ -9,7 +9,7 @@ function Visualization() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]">
+      <div className="grid grid-cols-2 w-[1200px] h-full ">
          
         <div className="w-[600px] h-[445px] mt-[50px]">
           <div className="text-sm/[14px] px-[15px] leading-relaxed">

@@ -13,7 +13,7 @@ function Services() {
 
       </div>
 
-      <div className="w-[1170px] h-full  ml-[200px] grid gap-2 mb-[30px]">
+      <div className="w-[1170px] h-full grid gap-2 mb-[30px]">
 
         <div className="w-full h-[150px] grid mb-[50px]">
           <h4 className="text-[28px] place-self-center font-bold text-blue-800">WHAT WE OFFER</h4>

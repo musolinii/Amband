@@ -10,7 +10,7 @@ function BigData() {
         <p className='place-self-center text-black'>BIG DATA</p>
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]">
+      <div className="grid grid-cols-2 w-[1200px] h-full">
 
         <div className="w-full h-[445px] mr-[30px] mt-[30px]">
           <img src="/assets/bigdata.png" alt="data-analytics" className="w-full h-[400px]" />
@@ -39,7 +39,7 @@ function BigData() {
 
       </div>
 
-      <div className="grid grid-cols-3 gap-2 w-[1200px] ml-[200px] mb-[40px]">
+      <div className="grid grid-cols-3 gap-2 w-[1200px] mb-[40px]">
         <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Data Analytics</h4>

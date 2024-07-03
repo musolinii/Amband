@@ -10,7 +10,7 @@ function ICS() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] ml-[200px]">
+      <div className="grid grid-cols-2 w-[1200px] ">
         <div className="w-[600px] mt-[50px] grid">
 
           <div className="leading-relaxed">

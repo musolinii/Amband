@@ -8,9 +8,12 @@ export default function Root() {
     return (
         <>
             <Navbar />
-            <Outlet />
-            <FooterSection />
-            <Footer/>
+            <div className="flex items-center flex-col justify-center">
+                <Outlet /> 
+                <FooterSection />
+                <Footer/>
+            </div>
+            
         </>
     );
 }

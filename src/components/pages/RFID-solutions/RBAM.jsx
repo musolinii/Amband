@@ -11,7 +11,7 @@ function RBAM() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px] mt-[100px]"> 
+      <div className="grid grid-cols-2 w-[1200px] h-full mt-[100px]"> 
 
         <div className="w-full h-[445px] m-[20px]">
            <img src="/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />

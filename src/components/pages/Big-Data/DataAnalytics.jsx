@@ -10,7 +10,7 @@ function DataAnalytics() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-[555px] ml-[200px] mt-[100px]">
+      <div className="grid grid-cols-2 w-[1200px] h-[555px] mt-[100px]">
         <div className="w-[600px] h-[400px] ">
           <img src="/assets/analysis.png" alt="data-analytics" className="w-full h-[400px]" />
 

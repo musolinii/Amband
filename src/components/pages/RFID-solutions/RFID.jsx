@@ -13,7 +13,7 @@ function RFID() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full ml-[200px]"> 
+      <div className="grid grid-cols-2 w-[1200px] h-full"> 
         <div className="w-[600px] h-[445px] mt-[50px]">
           <div className="text-sm/[14px] px-[15px] leading-relaxed">
             <p className="text-left">
@@ -29,7 +29,7 @@ function RFID() {
  
       </div>
 
-      <div className='grid grid-cols-4 gap-2 w-[1200px] ml-[200px] mb-[80px]'>
+      <div className='grid grid-cols-4 gap-2 w-[1200px] mb-[80px]'>
           <div className="w-[260px] h-[260px] border-solid border-2 border-black border-dashed grid">
             <div className="p-[20px]">
             <h4 className="mb-[10px] font-bold">RFID/Bar-Code Asset Management</h4>
