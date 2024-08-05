@@ -13,7 +13,7 @@ function Services() {
 
       </div>
 
-      <div className="w-[1170px] h-full grid gap-2 mb-[30px]">
+      <div className="sm:w-[1170px] h-full grid gap-2 mb-[30px]">
 
         <div className="w-full h-[150px] grid mb-[50px]">
           <h4 className="text-[28px] place-self-center font-bold text-blue-800">WHAT WE OFFER</h4>
@@ -21,7 +21,7 @@ function Services() {
 
         </div>
         
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
           <img src="/assets/code.jpeg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
@@ -34,7 +34,7 @@ function Services() {
           
         </div>
 
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
 
           <div className="w-[530px] h-[250px] text-left">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">02. ICT Consulting Services</h5>
@@ -49,7 +49,7 @@ function Services() {
           
         </div>
 
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
           <img src="/assets/bpr.jpeg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
@@ -63,7 +63,7 @@ function Services() {
           
         </div>
         
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
 
           <div className="w-[530px] h-[250px] text-left">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">04. IT Support</h5>
@@ -80,7 +80,7 @@ function Services() {
           
         </div>
 
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
           <img src="/assets/audit.jpg" alt="code" />
 
           <div className="w-[530px] h-[250px] text-right">
@@ -94,7 +94,7 @@ function Services() {
           
         </div>
 
-        <div className="w-full h-[300px] flex flex-row justify-between">
+        <div className="grid grid-cols-1 w-full sm:h-[300px] sm:flex sm:flex-row justify-between">
 
           <div className="w-[530px] h-[250px] text-left">
             <h5 className="text-[18px] text-blue-800 font-bold mb-[40px]">06. Cyber Security</h5>

@@ -27,6 +27,8 @@ import RBAM from './components/pages/RFID-solutions/RBAM.jsx';
 import RSM from './components/pages/RFID-solutions/RSM.jsx';
 import RFDM from './components/pages/RFID-solutions/RFDM.jsx';
 import RAM from './components/pages/RFID-solutions/RAM.jsx';
+import Test from './components/pages/test.jsx';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -123,10 +125,8 @@ const router = createBrowserRouter([
         element: <RAM />,
       
       },
-
-
-
     ],
+  
   },
 
 ]);

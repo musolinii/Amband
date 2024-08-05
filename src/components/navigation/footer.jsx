@@ -9,11 +9,11 @@ const Footer = () => {
 
     return (
         <footer className="bg-slate-200 text-slate-600 py-8 w-full">
-          <div className="text-gray-400 text-sm/[14px] ml-[180px]">
+          <div className="text-gray-400 text-[14px] ml-[180px]">
             &copy; 2024 MyWebsite. All rights reserved.
           </div>
 
-          <div className=' ml-[1340px] mb-[90px]'>
+          <div className=' sm:ml-[1340px] mb-[90px]'>
             <button onClick={handleReturnToTop} className=' py-[10px] px-[10px] rounded-full hover:bg-slate-500 transition'>
             <FontAwesomeIcon icon={faArrowUp} />
             </button>

@@ -10,8 +10,8 @@ function WSD() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px]">
-        <div className="w-[600px] mt-[50px] grid">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px]">
+        <div className="sm:w-[600px] mt-[50px] grid">
 
           <div className="leading-relaxed">
             <h4 className="text-[28px] font-bold text-blue-800 text-center">WHY HAVE A WEBSITE?</h4>

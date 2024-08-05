@@ -10,12 +10,12 @@ function MachineLearning() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] h-full">
          
-        <div className="w-[600px] h-[445px] mt-[50px]">
-          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+        <div className="sm:w-[600px] sm:h-[445px] mt-[50px]">
+          <div className="text-[14px] px-[15px] leading-relaxed">
 
-            <h4 className="text-lg/[28px] text-bold mb-[60px]">WHAT IS MACHINE LEARNING ?</h4>
+            <h4 className="text-[28px] text-bold mb-[60px]">WHAT IS MACHINE LEARNING ?</h4>
 
 
             <p>
@@ -27,17 +27,17 @@ function MachineLearning() {
           </div>
         </div>
 
-        <div className="w-full h-[445px] m-[20px]">
+        <div className="w-full sm:h-[445px] m-[20px]">
           <img src="/assets/ml.png" alt="data-analytics" className="w-full h-[400px]" />
         </div>
 
-        <div className="w-full h-[445px] m-[20px]">
+        <div className="w-full sM:h-[445px] m-[20px]">
           <img src="/assets/ml-2.jpeg" alt="data-analytics" className="w-full h-[400px]" />
 
         </div>
 
-        <div className="w-[600px] h-[445px] mt-[50px] ml-[30px]">
-          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+        <div className="sm:w-[600px] sm:h-[445px] mt-[50px] ml-[30px]">
+          <div className="text-[14px] px-[15px] leading-relaxed">
             <p>
              Machine learning is a branch of Artificial Intelligence based on the idea that systems can learn from data, identify patterns and make decisions without/ with minimal human intervention.</p><br/>       
             <p>

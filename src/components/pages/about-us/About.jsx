@@ -12,11 +12,11 @@ function About() {
 
       </div>
 
-      <div className="w-full h-[400px] grid grid-cols-2">
+      <div className="w-full h-[400px] grid grid-cols-1 sm:grid-cols-2">
 
-        <div className=" w-[800px] h-[511px] ">
+        <div className=" sm:w-[800px] h-[511px] ">
 
-          <div className="w-[670px] h-[360px] mt-[80px] ml-[80px]">
+          <div className="sm:w-[670px] h-[360px] mt-[80px] ml-[80px]">
 
 
             <h6 className="text-lg/[28px] font-bold mb-[30px]">Amband is an Information System Company</h6>
@@ -27,12 +27,12 @@ function About() {
 
         </div>
 
-        <div className="bg-[url('/assets/team.png')] w-[800px] h-[370px]">
+        <div className="sm:bg-[url('/assets/team.png')] sm:w-[800px] sm:h-[370px]">
         </div>
 
       </div>
 
-      <div className='grid grid-cols-3 w-full h-[405px] place-items-center'>
+      <div className='grid grid-cols-1 sm:grid-cols-3 w-full sm:h-[405px] place-items-center'>
 
           <div className="flip-card">
             <div className="flip-card-inner">

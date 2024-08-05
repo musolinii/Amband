@@ -10,13 +10,13 @@ function DataAnalytics() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-[555px] mt-[100px]">
-        <div className="w-[600px] h-[400px] ">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] sm:h-[555px] mt-[100px]">
+        <div className="sm:w-[600px] h-[400px] ">
           <img src="/assets/analysis.png" alt="data-analytics" className="w-full h-[400px]" />
 
         </div>
 
-        <div className="w-[600px] text-sm/[14px] px-[15px] py-[20px] leading-relaxed">
+        <div className="sm:w-[600px] text-[14px] px-[15px] py-[20px] leading-relaxed">
           <p>
             Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.
           </p><br />

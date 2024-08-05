@@ -10,14 +10,14 @@ function BigData() {
         <p className='place-self-center text-black'>BIG DATA</p>
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] h-full">
 
         <div className="w-full h-[445px] mr-[30px] mt-[30px]">
           <img src="/assets/bigdata.png" alt="data-analytics" className="w-full h-[400px]" />
         </div>
          
-        <div className="w-[600px] h-full mt-[50px] ml-[30px]">
-          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+        <div className="sm:w-[600px] h-full mt-[50px] ml-[30px]">
+          <div className="text-[14px] px-[15px] leading-relaxed">
             <p>
               The term “big data” refers to data that is so large, fast or complex that it’s difficult or impossible to process using traditional methods. Big data describes the large volume of data – both structured, semi-structured and unstructured – that inundates a business on a day-to-day basis.            </p><br />
             <p>
@@ -39,8 +39,8 @@ function BigData() {
 
       </div>
 
-      <div className="grid grid-cols-3 gap-2 w-[1200px] mb-[40px]">
-        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-2 sm:w-[1200px] mb-[40px]">
+        <div className="sm:w-[360px] sm:h-[250px] mt-[50px] border-2 border-dashed border-black grid">
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Data Analytics</h4>
             <p className="text-[11px]">Big data analytics is the use of advanced analytic techniques against very large, diverse data sets that include structured, semi-structured and unstructured data, from different sources and sizes ranging from gigabytes to terabytes.</p>
@@ -51,7 +51,7 @@ function BigData() {
                 
         </div>
 
-        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+        <div className="sm:w-[360px] sm:h-[250px] mt-[50px] border-2 border-dashed border-black grid">
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Visualization</h4>
             <p className="text-[11px]">Data visualization is the presentation of data in a pictorial or graphical format. It enables decision makers to see analytics presented visually, so they can grasp difficult concepts or identify new patterns.</p>
@@ -62,7 +62,7 @@ function BigData() {
                 
         </div>
 
-        <div className="w-[360px] h-[250px] mt-[50px] border-2 border-dashed border-black grid">
+        <div className="sm:[360px] sm:h-[250px] mt-[50px] border-2 border-dashed border-black grid">
           <div className="place-self-center px-[10px]">
             <h4 className="font-bold text-[28px]">Machine Learning</h4>
             <p className="text-[11px]">Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead.</p>

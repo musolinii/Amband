@@ -8,7 +8,7 @@ export default function Root() {
     return (
         <>
             <Navbar />
-            <div className="flex items-center flex-col justify-center">
+            <div className="grid grid-cols-1 sm:flex sm:items-center sm:flex-col sm:justify-center">
                 <Outlet /> 
                 <FooterSection />
                 <Footer/>

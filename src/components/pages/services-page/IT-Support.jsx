@@ -10,8 +10,8 @@ function Support() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px]">
-        <div className="w-[600px] mt-[50px] grid">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px]">
+        <div className="sm:w-[600px] mt-[50px] grid">
 
           <div className="leading-relaxed">
             <p className="text-[14px] text-left">We offer IT support and maintenance services to our clients. We are regarded as the “go-to” service provider by organizations as we provide friendly customer service; our qualified & highly competent technicians work fast to get your equipment serviced and ready as quick as possible.</p>
@@ -40,7 +40,7 @@ function Support() {
 
         </div>
 
-        <div className="ml-[20px] w-[600px] mt-[50px] grid"> 
+        <div className="ml-[20px] sm:w-[600px] mt-[50px] grid"> 
           <div>
             <img src="/assets/sp.jpg" alt="comm" />
           </div>

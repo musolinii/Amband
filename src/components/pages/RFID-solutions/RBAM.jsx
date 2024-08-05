@@ -11,14 +11,14 @@ function RBAM() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full mt-[100px]"> 
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] h-full mt-[100px]"> 
 
-        <div className="w-full h-[445px] m-[20px]">
-           <img src="/assets/RFID.jpg" alt="data-analytics" className="w-full h-[400px]" />
+        <div className="w-full sm:h-[445px] m-[20px]">
+           <img src="/assets/RFID.jpg" alt="data-analytics" className="w-full sm:h-[400px]" />
         </div>    
 
-        <div className="w-[600px] h-[445px] mt-[50px] ml-[30px]">
-          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+        <div className="sm:w-[600px] sm:h-[445px] mt-[50px] ml-[30px]">
+          <div className="text-[14px] px-[15px] leading-relaxed">
             <p className="text-left">
               Amband provides clients with a proven fixed asset solution that enables the management of all types of fixed assets including property, equipment and furniture in line with the latest corporate governance regulations.
             </p><br />
@@ -43,8 +43,8 @@ function RBAM() {
           </ul>
         </div>
 
-        <div className="w-full h-[445px] m-[20px]">
-           <img src="/assets/rfid.jpg" alt="data-analytics" className="w-full h-[400px]" />
+        <div className="w-full sm:h-[445px] m-[20px]">
+           <img src="/assets/rfid.jpg" alt="data-analytics" className="w-full sm:h-[400px]" />
         </div>    
       </div>
 

@@ -11,8 +11,8 @@ function RAM() {
 
       </div>
        
-      <div className="grid grid-cols-2 mt-[100px]">
-        <div className="text-sm/[14px] px-[15px] leading-relaxed text-left w-[800px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mt-[100px]">
+        <div className="text-14px] px-[15px] leading-relaxed text-left sm:w-[800px]">
           <p>
             AMBAND has partnered with ARMS RFID to be able to supply their RFID Armory management system. The ARMS Armory Management System is a computerized registry of weapons, gear, ammo, officers, certifications and posts integrated with bar coding and RFID technology for rapid assignments, issues and returns, and supporting security infrastructure to prevent the unauthorized removal of weapons.
           </p><br />
@@ -22,14 +22,14 @@ function RAM() {
 
         </div>
 
-        <div className="w-[320px] grid ml-[200px]">
+        <div className="sm:w-[320px] grid sm:ml-[200px]">
           <img src="/assets/locker.jpg" alt="data-analytics" className="w-full h-[400px] place-self-center" />
         </div>
   
       </div>
 
-      <div className="grid grid-cols-2 mt-[100px] ml-[200px]">
-        <div className="text-sm/[14px] px-[15px] leading-relaxed text-left w-[800px]">
+      <div className="grid grid-cols-1 sm:grid-cols-2 mt-[100px] sm:ml-[200px]">
+        <div className="text-[14px] px-[15px] leading-relaxed text-left sm:w-[800px]">
         <h4 className="text-[18px] text-blue-800 font-bold mb-[40px]">Key features of ARMS weapons tracking</h4>
           <ul>
             <li>Computerized Registry of weapons, gear, ammo, personnel, posts and certifications</li>

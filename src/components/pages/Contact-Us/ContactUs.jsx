@@ -14,7 +14,7 @@ function ContactUs() {
 
     </div>
 
-    <div className="grid grid-cols-3 w-[1200px] mt-[50px]">
+    <div className="grid grid-cols-1 sm:grid-cols-3 sm:w-[1200px] mt-[50px]">
       <div className='grid'>
       <FontAwesomeIcon className='place-self-center' icon={faLocationDot} />
       <p className='font-bold text-[25px] place-self-center'>Address</p>
@@ -36,7 +36,7 @@ function ContactUs() {
 
     <p className='grid justify-items-center mt-[20px]'>For general Inquiry, send an email to this contact: All fields are required.</p>
 
-    <div className="grid grid-cols-2 w-[1200px] gap-2  mt-[50px]">
+    <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] gap-2  mt-[50px]">
       <div>
         <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7041934904664!2d36.90457527491678!3d-1.3540618357038279!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f0d9f19275123%3A0xc92bcb4c6a816b34!2sHilton%20Garden%20Inn%20Nairobi%20Airport!5e0!3m2!1sen!2ske!4v1717393922083!5m2!1sen!2ske" 

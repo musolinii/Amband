@@ -10,8 +10,8 @@ function ICS() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] ">
-        <div className="w-[600px] mt-[50px] grid">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] ">
+        <div className="sm:w-[600px] mt-[50px] grid">
 
           <div className="leading-relaxed">
             <p className="text-[14px] text-left">Information and communication technologies (ICT) have become critical business tools, essential in any workplace, educational or entertainment environment. Increasingly these technologies offer flexibility in the way that people use buildings but to get the most out of them, and to make them work effectively, efficiently and flexibly, they need to form part of the strategy, be designed in from the start and implemented alongside the construction or refurbishment of a building.</p>
@@ -41,7 +41,7 @@ function ICS() {
 
         </div>
 
-        <div className="ml-[20px] w-[600px] mt-[50px] grid"> 
+        <div className="ml-[20px] sm:w-[600px] mt-[50px] grid"> 
           <div>
             <img src="/assets/computer.jpg" alt="comm" />
           </div>

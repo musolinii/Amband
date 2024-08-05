@@ -12,9 +12,9 @@ function RSM() {
 
       </div>
 
-        <div className="grid grid-cols-2 w-[1200px]"> 
-          <div className="w-[600px]  mt-[50px]">
-            <div className="text-sm/[14px] px-[15px] leading-relaxed">
+        <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px]"> 
+          <div className="sm:w-[600px]  mt-[50px]">
+            <div className="text-[14px] px-[15px] leading-relaxed">
               <p className="text-left">
                 Supply chain management is the management of the flow of goods and services and includes all processes that transform raw materials into final products. It involves the active streamlining of a business’s supply-side activities to maximize customer value and gain a competitive advantage in the marketplace.
               </p><br />
@@ -34,7 +34,7 @@ function RSM() {
               </p>
 
               
-              <div className="w-full h-[445px] m-[20px]">
+              <div className="w-full sm:h-[445px] m-[20px]">
                 <img src="/assets/scan.jpg" alt="data-analytics" className="w-full h-[400px]" />
               </div>    
 
@@ -78,28 +78,28 @@ function RSM() {
 
         </div>
 
-        <div className="w-[1200px] h-full flex flex-wrap gap-8 ">
-          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+        <div className="grid grid-cols-1 sm:w-[1200px] h-full sm:flex sm:flex-wrap sm:gap-8 ">
+          <div className="sm:w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Visibility</h4>
             <p><strong>AM-SCMS</strong>  will inform the client the exact value and location of inventory in stock i.e. every pallet, parcel, and unit, anywhere along the global supply chain, from the manufacturer to storage to transportation to the store shelf.</p>
           </div>
 
-          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+          <div className="sm:w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Ease of Use</h4>
             <p><strong>AM-SCMS</strong>   offers simple and intuitive user experiences that provide quick access to accurate and timely analytics, accessible anywhere and from virtually any device.</p>
           </div>
 
-          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+          <div className="sm:w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Agility</h4>
             <p>With <strong>AM-SCMS</strong>, an organization can quickly and securely deploy new services, business processes and workflows to easily scale up his productivity, efficiency and meet new challenges.</p>
           </div>
 
-          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+          <div className="sm:w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Security</h4>
             <p><strong>AM-SCMS</strong>   is a cloud based SCM thus the headache of security and back-ups is passed to the service provider thus leaving the client to concentrate on maximizing efficiency and productivity in the organization day to day activities.</p>
           </div>
 
-          <div className="w-[534px] text-[14px] px-[15px] leading-relaxed">
+          <div className="sm:w-[534px] text-[14px] px-[15px] leading-relaxed">
             <h4 className="text-blue-800 text-[16px]">Lower Operaional Cost</h4>
             <p><strong>AM-SCMS</strong>   integrates most if not all supply chain business processes and workflows to enable seamless flow of information and goods and services from the convenience of a workspace or connected device in the field.</p>
           </div>

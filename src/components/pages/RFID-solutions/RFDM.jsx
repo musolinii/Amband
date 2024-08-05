@@ -12,9 +12,9 @@ function RFDM() {
 
       </div>
 
-      <div className="grid grid-cols-2 w-[1200px] h-full "> 
-        <div className="w-[600px] mt-[50px]">
-          <div className="text-sm/[14px] px-[15px] leading-relaxed">
+      <div className="grid grid-cols-1 sm:grid-cols-2 sm:w-[1200px] h-full "> 
+        <div className="sm:w-[600px] mt-[50px]">
+          <div className="text-[14px] px-[15px] leading-relaxed">
             <p className="text-left">
               RFID document and file management systems are designed to reduce employee time spent maintaining and managing hundreds or thousands of files within a workplace. Many businesses currently use basic methods to manage files, such as alphabetical filing, color-coded filing, or barcodes. RFID file management systems have become increasingly popular because they give employees enhanced visibility, while freeing up time previously spent on inventory counts or searching for lost documents.            </p><br />
             <p>
@@ -26,7 +26,7 @@ function RFDM() {
           </div>
         </div>
 
-       <div className="w-full h-[445px] m-[20px]">
+       <div className="w-full sm:h-[445px] m-[20px]">
          <img src="/assets/scan.jpg" alt="data-analytics" className="w-full h-full" />
        </div>         
 

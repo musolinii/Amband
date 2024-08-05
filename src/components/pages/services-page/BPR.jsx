@@ -10,8 +10,8 @@ function BPR() {
 
         </div>
 
-        <div className="grid grid-cols-2 w-[1200px] h-full"> 
-          <div className="w-[600px] h-[445px] mt-[50px]">
+        <div className="grid sm:grid-cols-2 sm:w-[1200px] h-full"> 
+          <div className="sm:w-[600px] sm:h-[445px] mt-[50px]">
             <div className="text-sm/[14px] px-[15px] leading-relaxed">
               <p className="text-left">
                 <b>Business process re-engineering</b>(<b>BPR</b>) is a business management strategy,  focusing on the analysis and design of workflows and business processes within an organization. At Amband We aim to help organizations fundamentally rethink how they do their work in order to improve customer service, cut operational costs, and become world-class competitors.
