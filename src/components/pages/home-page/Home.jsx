@@ -190,7 +190,7 @@ function Home() {
 
        </div>
 
-        <div className="sm:bg-[url('/assets/team.png')] sm:w-[800px] sm:h-[511px]">
+        <div className="bg-[url('/assets/team.png')] sm:w-[800px] h-[511px]">
         </div>
 
       </div>
