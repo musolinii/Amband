@@ -162,13 +162,13 @@ function Home() {
         </>
      </Modal>
       <div className='grid grid-cols-1'>
-        <div className="bg-[url('/assets/hero.png')] w-full h-[300px] ">
+        <div className="sm:bg-[url('/assets/hero.png')] w-full sm:h-[300px] ">
         </div>
       </div>
 
-      <div className="w-full h-[325px] grid ">
+      <div className="w-full sm:h-[325px] grid ">
 
-        <div className=" w-full h-[135px] place-self-center box-border ">
+        <div className=" w-full sm:h-[135px] place-self-center box-border ">
           <h4 className='text-[28px] font-bold text-center'>WELCOME TO AMBAND</h4>
           <p className="text-[14px] h-[50px] box-border text-center  mt-[30px] leading-relaxed">We are an innovative and dynamic information technology company that prides itself by offering bespoke and “out of the box” IT related solutions to our clients.</p>
         </div>
@@ -190,7 +190,7 @@ function Home() {
 
        </div>
 
-        <div className="bg-[url('/assets/team.png')] sm:w-[800px] sm:h-[511px]">
+        <div className="sm:bg-[url('/assets/team.png')] sm:w-[800px] sm:h-[511px]">
         </div>
 
       </div>
