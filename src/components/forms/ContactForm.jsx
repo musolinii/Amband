@@ -1,97 +1,81 @@
-import React, { useState } from 'react';    
+import { useState } from "react";
+import { CONTACT } from "../../constants";
 
+export default function ContactForm({ onSuccess }) {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [submittedData, setSubmittedData] = useState(null);
 
-function ContactForm() {
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    setSubmittedData({ name, email, phone, message });
+    onSuccess?.();
+  };
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [phone, setPhone] = useState('');
-    const [message, setMessage] = useState('');
-    const [submittedData, setSubmittedData] = useState(null);
+  const inputClass =
+    "w-full max-w-full px-3 py-2 border border-slate-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-emerald-700";
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        setSubmittedData({ name, email ,message});
-    };
+  return (
+    <div className="w-full max-w-xl mx-auto p-4 md:p-8 border-2 border-emerald-800 rounded-lg bg-white shadow-sm">
+      <form onSubmit={handleSubmit} className="space-y-5">
+        <div>
+          <label className="block text-sm font-medium mb-1">{CONTACT.formLabels.name}</label>
+          <input
+            type="text"
+            required
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1">{CONTACT.formLabels.phone}</label>
+          <input
+            type="tel"
+            required
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1">{CONTACT.formLabels.email}</label>
+          <input
+            type="email"
+            required
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            className={inputClass}
+          />
+        </div>
+        <div>
+          <label className="block text-sm font-medium mb-1">{CONTACT.formLabels.message}</label>
+          <textarea
+            value={message}
+            onChange={(e) => setMessage(e.target.value)}
+            rows={4}
+            className={inputClass}
+          />
+        </div>
+        <button
+          type="submit"
+          className="w-full sm:w-auto min-w-[100px] px-6 py-2.5 bg-emerald-800 text-white rounded-md text-sm hover:bg-slate-900 transition"
+        >
+          {CONTACT.formLabels.submit}
+        </button>
+      </form>
 
-
-    return(
-        <>
-        <div className='mx-px w-[550px] h-[600px] p-[50px] border-solid border-2 border-emerald-800 '>
-            <form onSubmit={handleSubmit} className='bg-emerald-500 px-[10px]' >
-                <div className='mt-[20px]'>
-                    <label>
-                    Your Name (required)*
-                    <br/>
-                    <input
-                        type="text"
-                        value={name}
-                        onChange={(e) => setName(e.target.value)}
-                        className='w-[400px]'
-                    />
-                    </label>
-                    
-                </div>
-                <div className='mt-[20px]'>
-                    <label>
-                    Your Phone (required)*
-                    <br/> 
-                    <input
-                        type="text"
-                        value={phone}
-                        onChange={(e) => setPhone(e.target.value)}
-                        className='w-[400px]'
-                    />
-                    </label>
-
-                </div>
-                <div className='mt-[20px]'>
-                    <label>
-                    Email Adress (required)*
-                    <br/>
-                    <input
-                        type="email"
-                        value={email}
-                        onChange={(e) => setEmail(e.target.value)}
-                        className='w-[400px]'
-                    />
-                    </label>
-                </div>
-                <div className='mt-[20px]'>
-                    <label>
-                    Your Message
-                    <br/>
-                    <input
-                        type="text"
-                        value={message}
-                        onChange={(e) => setMessage(e.target.value)}
-                        className='w-[400px] h-[100px]'
-                    />
-                    </label>
-                </div>
-
-                <button type='submit' className="w-[100px] h-[40px] mt-[30px] bg-emerald-800 text-white rounded-md place-self-center hover:bg-black transition">Send</button>
-
-                </form>
-
-
-            {submittedData && (
-            <div>
-                <h3>Submitted Data:</h3>
-                <p>Name: {submittedData.name}</p>
-                <p>Email: {submittedData.email}</p>
-                <p>{submittedData.message}</p>
-            </div>
-            )}
-      </div>
-        </>
-    )
-
-
-
+      {submittedData && (
+        <div className="mt-6 text-sm text-slate-700">
+          <h3 className="font-bold mb-2">Submitted Data:</h3>
+          <p>Name: {submittedData.name}</p>
+          <p>Email: {submittedData.email}</p>
+          <p>Phone: {submittedData.phone}</p>
+          <p>{submittedData.message}</p>
+        </div>
+      )}
+    </div>
+  );
 }
-
-export default ContactForm;
-
-
-

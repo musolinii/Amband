@@ -1,18 +1,7 @@
-import Footer from "./components/navigation/footer"
-import Navbar from "./components/navigation/topnav"
-import Home from "./components/pages/home-page/Home"
+import SinglePageApp from "./pages/SinglePageApp";
 
 function App() {
-  
-
-  return (
-    <>
-    <Navbar/>
-    <Home/>
-    <Footer/>
-    
-    </>
-  )
+  return <SinglePageApp />;
 }
 
-export default App
+export default App;
